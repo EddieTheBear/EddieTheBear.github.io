@@ -140,6 +140,10 @@ table tr :last-child {
   color: #99aab5;
 }
 
+#bluesky {
+  color: #0085ff; /* eyedroppered, could be wrong */
+}
+
 .speen {
   animation-name: speen;
   animation-duration: 4000ms;
