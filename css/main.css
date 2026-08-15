@@ -1,5 +1,9 @@
+@font-face {
+  font-family: "High Tower Text";
+  src: local("High Tower Text"), url("res/High Tower.TTF") format("ttf");
+}
 html, body {
-  font-family: "High Tower Text", "Open Sans", sans-serif;
+  font-family: "High Tower Text", "Open Sans", serif;
   color: #ddd;
   text-align: center;
   margin: 0;
