@@ -220,6 +220,17 @@
   </div>
 
   <script>
+    // check for oldschool links >:3
+    let params = new URLSearchParams(window.location);
+    let hash = params.get("hash");
+    if (hash.startsWith("#commands")) {
+      document.getElementById("commands").classList.remove("overlayHidden");
+    } else if (hash.startsWith("#about")) {
+      document.getElementById("about").classList.remove("overlayHidden");
+    }
+
+
+
     function closeOverlay(target) {
       target.parentElement.classList.add('overlayHidden');
     }
